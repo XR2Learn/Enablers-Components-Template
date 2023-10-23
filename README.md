@@ -1,14 +1,15 @@
 # XR2Learn Components CookieCutter Template
+
 Use this to create new services, e.g., preprocessing for BM modality.
 
-
 ## Installing Cookiecutter
-`$ pip install --user cookiecutter`, ref: [cookiecutter installation page](https://cookiecutter.readthedocs.io/en/latest/installation.html)
+
+`$ pip install --user cookiecutter`,
+ref: [cookiecutter installation page](https://cookiecutter.readthedocs.io/en/latest/installation.html)
 
 ## Using this template
 
-Run `$ cookiecutter <<repository-URL>>`
-
+Run `$ cookiecutter git@github.com:um-xr2learn-enablers/XR2Learn-components-cookiecutter-template.git`
 
 Then answer the questions related to the new service that is being created.
 
