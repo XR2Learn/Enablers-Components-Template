@@ -21,3 +21,24 @@ In the end it will create a directory with the new project slug in the current d
 * Component ENVVARS read from .env file
 * Unit tests setup
 * Documentation
+
+# Including service in Docker-compose.yml file 
+
+```yaml
+<<service-name>>:
+    image: some.registry.com/xr2learn-enablers/<<service-name>>:latest
+    build:
+      context: '<<component>>/<<project_folder>>'
+      dockerfile: 'Dockerfile'
+    volumes:
+      - "./<<component>>/<<project_folder>>:/app"
+      - "./datasets:/app/datasets"
+      - "./outputs:/app/outputs"
+      - "./configuration.json:/app/configuration.json"
+    working_dir: /app
+    environment:
+      # To include environment variables in the format below
+      - KEY=${KEY}
+    #    entrypoint: /bin/sh -c
+    command: python <<project_slug>>/<<main_python_file>>.py
+```
