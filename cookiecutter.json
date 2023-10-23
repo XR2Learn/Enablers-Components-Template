@@ -1,0 +1,5 @@
+{
+  "project_name": "Some XR2Learn Component",
+  "description": "Some XR2Learn Component",
+  "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}"
+}
