@@ -15,6 +15,8 @@ Then answer the questions related to the new service that is being created.
 
 In the end it will create a directory with the new project slug in the current directory.
 
+Name of the Component, following the format: SSL Features Extraction Audio Modality
+
 # What's inside
 
 * Fully running service skeleton
@@ -22,23 +24,3 @@ In the end it will create a directory with the new project slug in the current d
 * Unit tests setup
 * Documentation
 
-# Including service in Docker-compose.yml file 
-
-```yaml
-<<service-name>>:
-    image: some.registry.com/xr2learn-enablers/<<service-name>>:latest
-    build:
-      context: '<<component>>/<<project_folder>>'
-      dockerfile: 'Dockerfile'
-    volumes:
-      - "./<<component>>/<<project_folder>>:/app"
-      - "./datasets:/app/datasets"
-      - "./outputs:/app/outputs"
-      - "./configuration.json:/app/configuration.json"
-    working_dir: /app
-    environment:
-      # To include environment variables in the format below
-      - KEY=${KEY}
-    #    entrypoint: /bin/sh -c
-    command: python <<project_slug>>/<<main_python_file>>.py
-```

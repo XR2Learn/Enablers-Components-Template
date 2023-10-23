@@ -3,5 +3,6 @@
   "description": "Description of the component",
   "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '_') }}",
   "component_folder": "{{ cookiecutter.project_name|replace(' ', '_')}}",
-  "main_python_file": "Python entry-point script name without .py format"
+  "main_python_file": "Python entry-point script name without .py format",
+  "service_name": "ssl-bm"
 }
