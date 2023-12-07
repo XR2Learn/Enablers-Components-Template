@@ -1,3 +1,5 @@
+![XR2Learn](https://raw.githubusercontent.com/XR2Learn/.github/5c0fada6136915b389c1cd2151a0dd2cfc4a5aac/images/XR2Learn%20logo.png)
+
 # Enablers' Components CookieCutter Template
 
 Project to support creating new components for Enablers 2-6 to extend supported modalities, e.g., preprocessing for BM modality.
@@ -10,7 +12,7 @@ ref: [cookiecutter installation page](https://cookiecutter.readthedocs.io/en/lat
 
 ## Using this template
 
-Run 
+To run: 
 
 `$ cookiecutter git@github.com:um-xr2learn-enablers/XR2Learn-components-cookiecutter-template.git`
 
@@ -30,7 +32,7 @@ This project will create a directory with the new component name in the current 
 
 
 
-# What's inside
+## What's inside
 
 * Fully running component skeleton
 * Component ENVVARS read from .env file
