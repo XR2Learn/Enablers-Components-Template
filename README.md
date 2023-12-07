@@ -1,4 +1,4 @@
-# XR2Learn Components CookieCutter Template
+# Enablers' Components CookieCutter Template
 
 Use this to create new services, e.g., preprocessing for BM modality.
 
