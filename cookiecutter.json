@@ -4,5 +4,6 @@
   "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '_') }}",
   "component_folder": "{{ cookiecutter.project_name|replace(' ', '_')}}",
   "main_python_file": "Python entry-point script name without .py format",
-  "service_name": "ssl-bm"
+  "service_name": "ssl-bm",
+  "current_service": "Repository current version in the format: v0.1.0"
 }
