@@ -5,7 +5,7 @@
 # Including component in Docker-compose.yml file as a service
 
 ```yaml
-{ { cookiecutter.service_name } }:
+{{ cookiecutter.service_name }}:
 image: some.registry.com/xr2learn-enablers/{{ cookiecutter.service_name }}:latest
 build:
   context: '{{ cookiecutter.parent_component }}/{{ cookiecutter.component_folder }}'
