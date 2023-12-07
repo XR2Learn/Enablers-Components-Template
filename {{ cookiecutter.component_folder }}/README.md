@@ -7,10 +7,10 @@
 {{ cookiecutter.service_name }}:
     image: some.registry.com/xr2learn-enablers/{{ cookiecutter.service_name }}:latest
     build:
-      context: '<<component>>/{{ cookiecutter.component_folder }}'
+      context: '{{ cookiecutter.parent_component }}/{{ cookiecutter.component_folder }}'
       dockerfile: 'Dockerfile'
     volumes:
-      - "./<<component>>/{{ cookiecutter.component_folder }}:/app"
+      - "./{{ cookiecutter.parent_component }}/{{ cookiecutter.component_folder }}:/app"
       - "./datasets:/app/datasets"
       - "./outputs:/app/outputs"
       - "${CONFIG_FILE_PATH:-./configuration.json}:/app/configuration.json"
