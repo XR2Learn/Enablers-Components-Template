@@ -12,7 +12,7 @@ ref: [cookiecutter installation page](https://cookiecutter.readthedocs.io/en/lat
 
 To run: 
 
-`$ cookiecutter git@github.com:um-xr2learn-enablers/XR2Learn-components-cookiecutter-template.git`
+`$ cookiecutter git@github.com:XR2Learn/Personalization-Components-Template.git`
 
 Then answer the questions related to the new component that is being created.
 
