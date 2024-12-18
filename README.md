@@ -1,6 +1,4 @@
-![XR2Learn](https://raw.githubusercontent.com/XR2Learn/.github/5c0fada6136915b389c1cd2151a0dd2cfc4a5aac/images/XR2Learn%20logo.png)
-
-# Enablers' Components CookieCutter Template
+# Personalization Enablers' Components CookieCutter Template
 
 Project to support creating new components for Enablers 2-6 to extend supported modalities, e.g., preprocessing for BM modality.
 
